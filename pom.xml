@@ -52,7 +52,7 @@
 
     <groupId>com.sun.jersey</groupId>
     <artifactId>jersey-project</artifactId>
-    <version>1.20-SNAPSHOT</version>
+    <version>1.20-cf</version>
     <packaging>pom</packaging>
     <name>jersey-project</name>
 
@@ -111,10 +111,10 @@
         <profile>
             <id>release</id>
             <modules>
-                <module>archetypes</module>
-                <module>archive</module>
+                <!--<module>archetypes</module>-->
+                <!--<module>archive</module>-->
                 <module>jersey-bundle</module>
-                <module>glassfish</module>
+                <!--<module>glassfish</module>-->
                 <module>ri</module>
             </modules>
 
@@ -190,9 +190,9 @@
             <modules>
                 <module>experimental</module>
                 <module>archetypes</module>
-                <module>archive</module>
+                <!--<module>archive</module>-->
                 <module>jersey-bundle</module>
-                <module>glassfish</module>
+                <!--<module>glassfish</module>-->
                 <module>ri</module>
             </modules>
         </profile>
@@ -201,9 +201,9 @@
             <modules>
                 <module>osgi</module>
                 <module>archetypes</module>
-                <module>archive</module>
+                <!--<module>archive</module>-->
                 <module>jersey-bundle</module>
-                <module>glassfish</module>
+                <!--<module>glassfish</module>-->
                 <module>ri</module>
             </modules>
         </profile>
@@ -213,9 +213,9 @@
                 <module>osgi</module>
                 <module>tests</module>
                 <module>archetypes</module>
-                <module>archive</module>
+                <!--<module>archive</module>-->
                 <module>jersey-bundle</module>
-                <module>glassfish</module>
+                <!--<module>glassfish</module>-->
                 <module>ri</module>
             </modules>
         </profile>
@@ -361,7 +361,7 @@
         <module>jersey-servlet</module>
         <module>jersey-test-framework</module>
         <module>jersey-tests</module>
-        <module>samples</module>
+        <!--<module>samples</module>-->
     </modules>
 
     <build>
@@ -664,7 +664,7 @@
         <jaxrs.version>1.1.1</jaxrs.version>
         <moxy.version>2.3.4-M6</moxy.version>
         <servlet3.version>3.0.1</servlet3.version>
-        <asm.version>6.0</asm.version>
+        <asm.version>7.0</asm.version>
         <release.tests.args>-Dmaven.test.skip=false</release.tests.args>
         <release.preparationGoals>clean install</release.preparationGoals>
     </properties>
